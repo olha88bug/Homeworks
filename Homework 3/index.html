@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Селектори</title>
+    <h1>
+    <header>Селектори</header>
+</h1>
+</head>
+<body>
+    <section>
+        Можна розділити CSS селектори на п’ять категорій:
+        <ol>
+            <li>Прості селектори (вибір елементів на основі імені, ідентифікатору, класу). 
+                Приклад: .highlight ; id
+            </li>
+            <li>Комбінаторні селектори (вибір елементів на основі визначених відношень між ними).
+                <div>В CSS є чотири різних комбінатора:</div>
+<ol>
+                <li>селектор нащадків (пробіл)</li>
+<li>селектор дочірній (>)</li>
+<li>селектор сусідній родинний (+)</li>
+<li>селектор загальний родинний (~)</li>
+</ol>
+            <li>Селектори псевдокласів (вибір елементів на основі визначеного стану)</li>
+            <div>Псевдо-клас використовується для визначення особливого стану елемента</div>
+            <ul>
+                <li class="item">Стилізація елемента, коли користувач наводить на нього курсор</li>
+                <li>Стилізація відвіданих та невідвіданих посилань по-різному</li>
+                <li>Стилізація елемента, коли він знаходиться в фокусі</li>
+            </ul>
+            <div>Приклад:</div>
+            <div>a:visited {</div>
+                <div>color: #00FF00</div>
+            <li>Селектори псевдоелементів (вибір і стилізація частини елемента)</li>
+            <div>CSS псевдо-елемент використовується для стилізації визначених частин елемента</div>
+            <ul>
+                <li>Стилізація першої літери або рядка елемента</li>
+                <li>Вставка змісту до або після змісту елемента</li>
+            </ul>
+            <div>Приклад:</div>
+            <div>Псевдо-елемент ::first-line використовується для додавання спеціального стилю до першого рядка тексту.</div>
+            <li>Селектори атрибутів (вибір елементів на основі атрибуту або значення атрибуту)</li>
+            <div>Можна стилізувати елементи HTML, які мають визначені атрибути або значення атрибутів</div>
+            <div>Приклад:</div>
+        <div>Селектор [attribute] використовується для вибору елементів зі вказаним атрибутом.</div>
+        </ol>
+        <h1>Element 1</h1>
+        
+        <span class="classy">Beautiful text</span>
+        <h2>Element 4</h2>
+        <h3>Element 5</h3>
+        <div><button id="btn1" title="Default1">KNOPKA</button></div>
+        <div><button id="btn2" title="Default2">KNOPKA2</button></div>
+        <div><button id="btn3" title="Default3">KNOPKA3</button></div>
+        <div><button id="btn4" title="Default4" class="text-white">KNOPKA4</button></div>
+        <div><button id="btn5" title="Default5">KNOPKA5</button></div>
+        <div><button id="btn6" title="Default6">KNOPKA6</button></div>
+
+    </section>
+</body>
+</html>

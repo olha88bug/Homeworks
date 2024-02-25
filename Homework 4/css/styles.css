@@ -1,0 +1,49 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.card {
+	width: 200px;
+  height: 226px;
+	margin: 10px;
+	background: #E0E0E0;
+	float: left;
+}
+
+.card img {
+	box-sizing: border-box;
+	width: 130px;
+  height: 130px;
+	padding: 0 px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 22%;
+}
+
+.text {
+  font-family: "Roboto1";
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "Roboto"; 
+  src: url("../fonts/ROBOTO-BOLD.TTF");  
+  font-weight: 400; 
+} 
+
+@font-face {
+  font-family: "Roboto1"; 
+  src: url("../fonts/ROBOTO-LIGHT.TTF");  
+  font-weight: 400; 
+} 

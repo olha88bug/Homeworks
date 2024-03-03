@@ -1,0 +1,52 @@
+.wrapper {
+	background: #C4C4C4;
+	padding: 50px 0px 0 50px;
+    width: 1100px;
+    height: 800px;
+    margin: auto;
+    margin-bottom: ;
+    
+}
+
+.row {
+	overflow: hidden;
+	background: #E6E6E6;
+	margin-bottom: 40px;
+    width: 1000px;
+    height: 200px;
+}
+
+.rect {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 64px;
+	background: #FC8F8F;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 
+    
+}
+
+.rect-small {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+    text-align: center;
+	font-size: 30px;
+    margin-left: 10px;
+}
+
+.float-right {
+	float: right;
+}
+
+@font-face { 
+    font-family: "Roboto"; 
+    src: url("../fonts/ROBOTO-REGULAR.TTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 

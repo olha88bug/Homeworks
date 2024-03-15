@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Registration</title>
+    <link rel="stylesheet" href="./css/styles1.css">
+    <title>Authorization</title>
 </head>
 <body>
     <section class="section">
         <div class="container">
 
-            <h2 class="title">Registration</h2>
+            <h2 class="title">Authorization</h2>
             <form action="./index.html" name="auth" method="post" autocomplete="on">
                 <div class="input-row">
                     <label for="Email">Email</label>
@@ -24,14 +24,13 @@
                     <input type="text" autofocus required name="Password" tabindex="1" id="Password"
                         placeholder="Please enter password" minlength="2" maxlength="30">
                 </div>
-
-                <form action="./index.html" name="auth" method="post" autocomplete="on">
-                    <div class="input-row">
-                        <label for="ConfirmEmail">Confirm password</label>
-                        <input type="text" autofocus required name="ConfirmEmail" tabindex="1" id="ConfirmEmail"
-                            placeholder="Please confirm password" minlength="2" maxlength="30">
-                    </div>
-            </div>
-        </section>
+                <div class="input-row">
+                    <label>
+                        <input type="checkbox" name="age1" value="0-18">
+                        <span>Remember password</span>
+                    </label>
+                </div>
+        </div>
+    </section>
 </body>
 </html>

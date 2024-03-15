@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles2.css">
+    <style>
+        li {
+         list-style-type: none;
+        }
+        ul {
+         margin-left: 0;
+         padding-left: 0;
+        }
+       </style>
+    <title>Search</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+
+            <h2 class="title">Search</h2>
+        <div class="input-row">
+        <label for="body_type">Body type</label>
+        <select name="body_type" id="body_type">
+            <option selected disabled>Select body type</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="Sedan">Sedan</option>
+            <option value="Coupe">Coupe</option>
+        </select>
+    </div>
+    
+<div class="input-row">
+        <label for="vehicle_make">Vehicle make</label>
+        <select name="vehicle_make" id="vehicle_make">
+            <option selected disabled>Select vehicle make</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Honda">Honda</option>
+            <option value="BMW">BMW</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="made_in">Made in</label>
+        <select name="made_in" id="made_in">
+            <option selected disabled>Select made in</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="price">Price</label>
+        <select name="price" id="price">
+            <option selected disabled>From</option>
+            <option value="1000$">1000$</option>
+            <option value="5000$">5000$</option>
+            <option value="10000$">10000$</option>
+        </select>
+
+        <label for="priceTo"></label>
+        <select name="priceTo" id="priceTo">
+            <option selected disabled>To</option>
+            <option value="5000$">5000$</option>
+            <option value="10000$">10000$</option>
+            <option value="15000$">15000$</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="year">Year of manufacture</label>
+        <select name="year" id="year">
+            <option selected disabled>From</option>
+            <option value="2000">2000</option>
+            <option value="2005">2005</option>
+            <option value="2010">2010</option>
+        </select>
+
+        <label for="yearTo"></label>
+        <select name="yearTo" id="yearTo">
+            <option selected disabled>To</option>
+            <option value="2005">2005</option>
+            <option value="2010">2010</option>
+            <option value="2015">2015</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <div class="Condition">Condition</div>
+        <ul>
+            <li>
+        <label>
+            <input type="checkbox" name="Uncleared" value="Uncleared">
+            <span>Uncleared</span>
+        </label>
+    </li>
+    <li>
+        <label>
+            <input type="checkbox" name="Crashed" value="Crashed">
+            <span>Crashed</span>
+        </label>
+    </li>
+    <li>
+        <label>
+            <input type="checkbox" name="On credit" value="On credit">
+            <span>On credit</span>
+        </label>
+    </li>
+    </ul>
+    </div>
+
+    <div class="input-row">
+        <label for="fuel_type">Fuel type</label>
+        <select name="fuel_type" id="fuel_type">
+            <option selected disabled>Select fuel type</option>
+            <option value="Gasoline">Gasoline</option>
+            <option value="Gas">Gas</option>
+            <option value="Diesel">Diesel</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="gearbox_type">Gearbox type</label>
+        <select name="gearbox_type" id="gearbox_type">
+            <option selected disabled>Select Gearbox type</option>
+            <option value="Automatic transmission">Automatic transmission</option>
+            <option value="Manual transmission">Manual transmission</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="color">Color</label>
+        <select name="color" id="color">
+            <option selected disabled>Select color</option>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Red">Red</option>
+        </select>
+    </div>
+
+    <div class="input-row">
+        <label for="comfort">Comfort</label>
+        <select name="comfort" id="comfort">
+            <option selected disabled>Select comfort</option>
+            <option value="Leather seats">Leather seats</option>
+            <option value="Radio tape recorder">Radio tape recorder</option>
+            <option value="Air conditioning">Air conditioning</option>
+        </select>
+    </div>
+
+    </div>
+</section>
+</body>
+</html>

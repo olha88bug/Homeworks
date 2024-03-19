@@ -1,0 +1,27 @@
+ p {
+    margin-top: 0;
+    margin-bottom: 0;
+   }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    border: 4px double black;
+    width: 25%;
+  }
+
+  th { 
+    text-align: center;
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid black;
+    border: 4px double black;
+  }
+
+  td { 
+    text-align: center;
+    background:#ffffff;
+    padding: 8px;
+    border: 1px solid black;
+    border: 4px double black;
+  }
